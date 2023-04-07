@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta name="discription" content="this is my website">
+         <title> My school</title>
+    </head>
+    <body>
+       
+        <!--this is a comment-->
+       <h1>welcome to my school</h1>
+       <p>hi my name adarsh reddy </p>
+       <h2>adarsh reddy</h2>
+       <h3>adarsh reddy</h3>
+       <h4>adarsh reddy</h4>
+      
+       <!--external link-->
+       <a href="http://google.com">open google</a>
+       <a href="http://google.com" target="_blank">open google</a>
+       
+       <!--Internal links-->
+       <p>
+          <a href="/class.html">my school to class</a>
+       </p>
+       
+       <!--local image-->
+       <img src="/imageshtml/MY PHOTO.jpg" alt="refresh to see the image">
+       
+       <!--remote images-->
+       <img src="https://images.unsplash.com/photo-1594136662380-3580470c089d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="image">
+       
+       <!--unordered list-->
+       <ul>
+         <li> Item 1</li>
+         <li> Item 2</li>
+         <li> Item 3</li>
+         <li> Item 4</li>
+       </ul>
+
+       <!--ordered list-->
+       <ol>
+         <li> Item 1</li>
+         <li> Item 2</li>
+         <li> Item 3</li>
+         <li> Item 4</li>
+       </ol>
+
+       <!--nested list-->
+       <ul>
+        <li> Item 1</li>
+        <li> Item 2</li>
+        <ul>
+            <li> Item 1</li>
+            <li> Item 2</li>
+          </ul>
+        <li> Item 3</li>
+        <li> Item 4</li>
+      </ul>
+
+      <!--tables-->
+      <table>
+        <thead>
+            <tr>
+                <th>first name</th>
+                <th>last name</th>
+                <th>email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>mareddy</td>
+                <td>adarsh reddy</td>
+                <td>mareddyadarshreddy@gmail.com</td>
+            </tr>
+            <tr>
+                <td>mareddy</td>
+                <td>sanjay reddy</td>
+                <td>mareddysanjayreddy@gmail.com</td>
+            </tr>
+            <tr>
+                <td>mareddy</td>
+                <td>venkat reddy</td>
+                <td>mareddyvenkatreddy@gmail.com</td>
+            </tr>
+        </tbody>
+      </table>
+
+      <!--paragraph-->
+       <p>lorem this is 
+        <!--bold tag-->
+        <strong>mareddy adarsh reddy</strong> my name is
+        <!--italic style--> 
+        <em>good morning sir</em>
+        <!--break tag-->
+        <br>adarsh reddy mareddy.thank you for 
+        <!--horizontal rule-->
+        <hr>
+        this will be 
+        <del>deleted</del>
+        giving me this opertunity for intoducing my self</p>
+
+        
+ <!--form creation-->
+         <form action="process.php">
+           <!-- name -->
+           <div>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name">
+           </div>
+           <!-- email -->
+           <div>
+             <label for="email">email id</label><br>
+             <input type="email" id="email" name="email">
+           </div>
+           <!-- message -->
+           <div>
+            <label for="message">message</label><br>
+            <textarea name="message" id="message" cols="50" rows="10"></textarea>
+           </div>
+            <!-- gender -->
+           <div>
+            <label for="gender">gender</label><br>
+            <select name="gender" id="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+           </div>
+          <!-- birthdate -->
+           <div>
+            <label for="birthdate">birthdate</label><br>
+            <input type="date" name="bithdate" id="birthdate">
+           </div>
+
+           <!--button switch-->
+             <input type="submit" value="submit">
+             <button type="submit">submit</button>
+             
+         </form>
+    </body>
+</html>

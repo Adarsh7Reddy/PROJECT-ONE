@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- linked to css file -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Implementing CSS</title>
+    <style>
+        /* Internal CSS */
+        h2{
+            color: orange;
+        }
+        /* using ids wel*/
+        #wel{
+            color : rgb(13, 208, 13);
+        }
+        /* using class aboutme*/
+        .aboutme{
+            color: red;
+        }
+       /* # sign is for IDs */
+        #about{
+            background-color: aquamarine;
+        }
+        /* mutiple selectors */
+       #about, #adarsh{
+        border: 1px;
+        padding:10px;
+        margin-bottom: 5px;
+       }
+       /* nested selector */
+       #adarsh p {
+        font-size: 20px;
+       }
+      /* body styling */
+      body{
+        background-color: bisque;
+      }
+      /* element selector */
+
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color:red">heading one</h1>
+    <h2>heading two</h2>
+    <h3>heading three</h3>
+
+    <div>
+        <h2 id="wel">Welcome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odio tempore tenetur? A dolores accusamus consequatur cupiditate magnam, vel voluptates dolore quaerat aperiam et quia placeat. Itaque sint deserunt enim.</p>
+    </div>
+
+    <div id="about">
+        <h2 class="aboutme">About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sint magnam et tempora praesentium, ab, eum voluptatibus, quisquam fugiat iure esse velit sit dignissimos quae? Repellat inventore eaque doloribus eius?</p>
+    </div>
+
+    <div id="adarsh">
+        <h2>adarsh</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis adipisci ut, obcaecati vitae quisquam fugiat laboriosam consequatur, qui quidem, labore eveniet culpa unde reprehenderit. Deleniti ipsum consequatur impedit quidem quam.</p>
+    </div>
+
+</body>
+</html>
